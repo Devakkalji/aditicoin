@@ -48,7 +48,7 @@ script: |
   ./autogen.sh
   do_configure
   make dist
-  DISTNAME=`echo bitcoin-*.tar.gz`
+  DISTNAME=`echo aditicoin-*.tar.gz`
 
   # Build dynamic versions of everything
   # (with static linking to boost and openssl as well a some non-OS deps)
